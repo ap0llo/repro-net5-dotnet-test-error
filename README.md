@@ -15,6 +15,6 @@ What **doesn't** work:
 - `dotnet test Repro.sln`
 
 
-**Note:** Problem only occurrs when the main project uses multi-targeting.
+**Note:** Problem only occurs when the main project uses multi-targeting.
 
 When changing `<TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>` in `Repro.csproj` to `<TargetFramework>net5.0</TargetFramework>`, `dotnet test` seems to work fine.
